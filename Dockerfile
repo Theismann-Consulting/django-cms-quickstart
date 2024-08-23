@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+ENV PGSSLCERT /tmp/postgresql.crt
+
 RUN python -m pip install --upgrade pip
 RUN python -m pip install -r requirements.txt
 

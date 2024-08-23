@@ -6,7 +6,6 @@ psycopg2
 uwsgi
 
 django<5
-dj-database-url
 django-storage-url
 whitenoise
 easy-thumbnails
@@ -21,7 +20,6 @@ djangocms-admin-style>=3.2.2
 
 # the default CKEditor - optional, but used in most projects
 djangocms-text-ckeditor>=5.1.2
-
 
 # optional django CMS frontend
 djangocms-frontend!=1.2.1
